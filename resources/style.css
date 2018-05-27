@@ -1,0 +1,73 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+}
+.sitecontainer{
+  width: 960px;
+  margin: 0 auto;
+}
+.sitecontainerforheader{
+  width:888px;
+  margin: 0 auto;
+}
+body{
+  font-family: Helvetica;
+}
+header{
+  background-color: cadetblue;
+  height:3rem;
+  width:auto;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  margin-bottom: 10rem;
+}
+.headerleft{
+  display: flex;
+  align-items: center;
+}
+.headerleft img{
+max-height: 1.5rem;
+margin-right:1rem;
+margin-left: 2rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+}
+nav p{
+   margin-right:2rem;
+}
+header .sitecontainer{
+  display: flex;
+  justify-content: space-between;
+}
+.top{
+  height:30rem;
+  background-image: url(glasses-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  width:32rem;
+  background-color: white;
+  height: 5.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box span{
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.sitecontainerforbox{
+  width:960px;
+  display: flex;
+  justify-content: flex-end;
+}
