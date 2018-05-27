@@ -6,10 +6,6 @@ html{
   width: 960px;
   margin: 0 auto;
 }
-.sitecontainerforheader{
-  width:888px;
-  margin: 0 auto;
-}
 body{
   font-family: Helvetica;
 }
@@ -50,6 +46,7 @@ header .sitecontainer{
   background-size: cover;
   display: flex;
   flex-direction: column;
+  margin-bottom: 3rem;
 }
 .box{
   width:32rem;
@@ -67,7 +64,47 @@ header .sitecontainer{
   margin-right: 3rem;
 }
 .sitecontainerforbox{
-  width:960px;
+  width:1032px;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-end;
+}
+.gallery{
+  height:8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.item1 img{
+  width:3.5rem;
+}
+.item2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.item2 img{
+  width: 5rem;
+}
+.item3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.item3 img{
+  width: 5rem;
 }
