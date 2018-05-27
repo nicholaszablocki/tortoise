@@ -74,6 +74,7 @@ header .sitecontainer{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .item1{
   display: flex;
@@ -107,4 +108,23 @@ header .sitecontainer{
 }
 .item3 img{
   width: 5rem;
+}
+.information{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.topic .title{
+  background-color: cadetblue;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:1.25rem;
+}
+.title{
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+.topic{
+  width: 35%;
 }
