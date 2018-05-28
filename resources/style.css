@@ -252,4 +252,14 @@ nav span{
     .gallery{
       height:auto;
     }
+    .gallery .item1{
+      margin-top: 3.77rem;
+    }
+    .gallery .item2{
+      margin-top: 1.54rem;
+      margin-bottom: 1.54rem;
+    }
+    .gallery .item3{
+      margin-bottom: 3.77rem;
+    }
 }
