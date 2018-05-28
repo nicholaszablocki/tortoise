@@ -83,6 +83,9 @@ header .sitecontainer{
   justify-content: space-between;
   margin-left: 3rem;
   margin-right: 3rem;
+  width:5rem;
+  text-align: center;
+  height:inherit;
 }
 .item1 img{
   width:3.5rem;
@@ -94,6 +97,9 @@ header .sitecontainer{
   justify-content: space-between;
   margin-left: 3rem;
   margin-right: 3rem;
+  width:5rem;
+  text-align: center;
+  height:inherit;
 }
 .item2 img{
   width: 5rem;
@@ -105,13 +111,16 @@ header .sitecontainer{
   justify-content: space-between;
   margin-left: 3rem;
   margin-right: 3rem;
+  width:5rem;
+  text-align: center;
+  height:inherit;
 }
 .item3 img{
   width: 5rem;
 }
 .information{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 5rem;
 }
 .topic .title{
@@ -127,4 +136,42 @@ header .sitecontainer{
 }
 .topic{
   width: 35%;
+}
+.topic1{
+  width: 35%;
+  margin-right: 48px;
+}
+.topic1 .title{
+  background-color: cadetblue;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:1.25rem;
+}
+footer{
+  height:9.5rem;
+  width:960px;
+  display: flex;
+  align-items: center;
+}
+footer img{
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+@media only screen and (max-width: 960px){
+  .sitecontainerforbox{
+    width:960px;
+    }
+    .sitecontainerforbox .box{
+      margin-right:2rem;
+      height:2.83rem;
+      width:20rem;
+    }
+    .sitecontainerforbox .box span{
+      font-size: 1.33rem;
+    }
+    .top{
+      background-size:cover;
+    }
 }
