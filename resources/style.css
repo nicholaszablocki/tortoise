@@ -159,19 +159,54 @@ footer img{
   margin-left: 4rem;
   margin-right: 1rem;
 }
-@media only screen and (max-width: 960px){
+nav span{
+  display: none;
+}
+@media only screen and (max-width: 1024px){
   .sitecontainerforbox{
-    width:960px;
+    width:100%;
+    }
+  .sitecontainer{
+    width:100%;
+  }
+    header{
+      margin-bottom:0;
+      margin-top:0;
     }
     .sitecontainerforbox .box{
       margin-right:2rem;
       height:2.83rem;
-      width:20rem;
+      width:25rem;
+      margin-top:8rem;
     }
     .sitecontainerforbox .box span{
       font-size: 1.33rem;
+      margin-right: 4rem;
+      margin-left: 4rem;
     }
     .top{
-      background-size:cover;
+      background-position: center;
+    }
+}
+@media only screen and (max-width: 470px){
+  .top{
+    
+  }
+  .sitecontainerforbox{
+    width:100%;
+  }
+    .sitecontainerforbox .box{
+    width:100%;
+    height:3rem;
+    margin-right: 0;
+    }
+    .sitecontainerforbox .box span{
+      font-size: 1rem;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .gallery{
+      display: flex;
+      flex-direction: column;
     }
 }
