@@ -235,6 +235,7 @@ nav span{
     }
     .topic1{
       width:100%;
+      margin-right: 0;
     }
     .title{
       width:100%;
@@ -247,5 +248,8 @@ nav span{
     footer{
       width:100%;
       justify-content: center;
+    }
+    .gallery{
+      height:auto;
     }
 }
